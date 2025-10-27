@@ -17,8 +17,7 @@ The goal of the project is to demonstrate good practices in writing functional U
 
 ***Getting Started***
 1. Install dependencies:  
-   `pip install pytest`
-   `pip install playwright`
+   `pip install requirements.txt`
 
 2. Clone the repository:  
    `git clone https://github.com/szymonpilszak/Playwright-Test-Project-CodersGuru.git`
@@ -27,4 +26,4 @@ The goal of the project is to demonstrate good practices in writing functional U
    `cd Playwright-Test-Project-CodersGuru/Tests`
    
 5. Run all tests:  
-   `pytest --html=reports/report.html`  
+   `pytest --html=report.html`  
