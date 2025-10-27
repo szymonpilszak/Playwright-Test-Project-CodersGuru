@@ -12,7 +12,6 @@ ENV/
 .pytest_cache/
 
 # Playwright / raporty
-report.html
 allure-results/
 screenshots/
 
