@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# Playwright / raporty
+report.html
+allure-results/
+screenshots/
+
+# IDE
+.vscode/
+.idea/
+*.iml
