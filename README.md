@@ -1,6 +1,6 @@
 
 
-<h1 align="center">RobotFramework TEST Project</h1>
+<h1 align="center">Playwright TEST Project</h1>
 
 ***TEST REPORTS AND LOGS***
 
