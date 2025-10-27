@@ -1,7 +1,14 @@
+import pytest
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
 
-def test_invalid_password(page):
+
+
+@pytest.mark.parametrize("username,password", [
+    ("invalid@email.pl","aaaaa"),       # Invalid username, valid password
+    ("aaaaa@wp.pl","invalidpassword"),  # Valid username, invalid password
+])
+def test_login_invalid_credentials(page, username, password):
     base_url = "https://tester.codersguru.pl/"
 
     home_page = HomePage(page)

@@ -2,7 +2,7 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 
-def test_login_success(page):
+def test_login_positive(page):
     base_url = "https://tester.codersguru.pl/"
 
     home_page = HomePage(page)
