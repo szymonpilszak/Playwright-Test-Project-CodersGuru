@@ -1,5 +1,13 @@
 
-***Playwright-Python***
+
+<h1 align="center">RobotFramework TEST Project</h1>
+
+***TEST REPORTS AND LOGS***
+
+https://szymonpilszak.github.io/Playwright-Test-Project-CodersGuru/Test_reports/report.html
+<br>
+<br>
+<br>
 
  ***Project Description***
 This repository contains an example web test automation project built using **Python** and **Playwright**.
