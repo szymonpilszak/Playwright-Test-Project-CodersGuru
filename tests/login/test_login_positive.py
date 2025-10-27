@@ -13,4 +13,4 @@ def test_login_success(page):
     home_page.go_to_login_page()
     login_page.login("aaaaa@wp.pl", "aaaaa")
 
-    assert dashboard_page.is_user_logged_in(), "Użytkownik nie został zalogowany!"
+    assert dashboard_page.is_user_logged_in(), "Login failed!"
