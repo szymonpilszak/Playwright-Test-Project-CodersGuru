@@ -56,11 +56,39 @@ def test_login_invalid(page, username, password):
             3. Attempt login with invalid credentials.
             4. Assert that the appropriate error message is displayed.
     """
-    home = HomePage(page)
-    login = LoginPage(page)
+    home_page = HomePage(page)
+    login_page = LoginPage(page)
 
-    home.goto(base_url)
-    home.go_to_login_page()
-    login.login(username, password)
+    home_page.goto(base_url)
+    home_page.go_to_login_page()
+    login_page.login(username, password)
 
-    assert login.get_error_message() == "Nieprawidłowe dane."
+    assert login_page.get_invalid_credentials_error_message() == "Nieprawidłowe dane."
+    
+    
+
+
+@pytest.mark.parametrize("username,password", [
+    ("", "aaaaa"),
+    ("aaaaa@wp.pl", "")
+])
+def test_login_missing_credentials(page, username, password): 
+    """
+    Test login with invalid credentials.
+
+            Steps:
+            1. Navigate to the home page.
+            2. Go to the login page.
+            3. Attempt login with missing email/password credentials.
+            4. Assert that the appropriate error message is displayed.
+    """
+    
+    home_page = HomePage(page)
+    login_page = LoginPage(page)
+    
+    home_page.goto(base_url)
+    home_page.go_to_login_page()
+    login_page.login(username, password)
+    login_page.click_submit()
+    
+    login_page.get_missing_credentials_error_message()
