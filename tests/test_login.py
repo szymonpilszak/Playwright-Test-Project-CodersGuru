@@ -25,9 +25,7 @@ def test_login_positive(page):
     ("aaaaa@wp.pl", "invalid")
 ])
 def test_login_invalid(page, username, password):
-    """
-    Sprawdza, że logowanie z nieprawidłowymi danymi wyświetla odpowiedni komunikat błędu.
-    """
+    
     home = HomePage(page)
     login = LoginPage(page)
 
