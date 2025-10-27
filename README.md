@@ -30,8 +30,5 @@ The goal of the project is to demonstrate good practices in writing functional U
 2. Clone the repository:  
    `git clone https://github.com/szymonpilszak/Playwright-Test-Project-CodersGuru.git`
    
-3. Navigate to the project folder with tests:  
-   `cd Playwright-Test-Project-CodersGuru/Tests`
-   
-5. Run all tests:  
+3. Run all tests:  
    `pytest --html=report.html`  
