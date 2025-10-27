@@ -10,6 +10,7 @@ https://szymonpilszak.github.io/Playwright-Test-Project-CodersGuru/report.html
 <br>
 
  ***Project Description***
+ 
 This repository contains an example web test automation project built using **Python** and **Playwright**.
 The goal of the project is to demonstrate good practices in writing functional UI tests using the **Page Object Model (POM)** approach.
 
