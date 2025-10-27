@@ -8,9 +8,7 @@ The goal of the project is to demonstrate good practices in writing functional U
  ***Key Features***
 - UI automated testing using Playwright
 - Project structure based on the Page Object Model
-- Easy local and CI/CD execution
 - Test execution reporting
-- Supports multiple browsers (Chromium, Firefox, WebKit)
 
  ***Technologies***
 - **Python 3.x**
