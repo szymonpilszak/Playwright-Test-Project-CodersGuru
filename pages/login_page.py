@@ -9,3 +9,7 @@ class LoginPage(BasePage):
         self.fill(self.USERNAME_INPUT, username)
         self.fill(self.PASSWORD_INPUT, password)
         self.click(self.SUBMIT_BUTTON)
+        
+        
+    def get_error_message(self):
+        return self.page.locator(".db-info").inner_text()
