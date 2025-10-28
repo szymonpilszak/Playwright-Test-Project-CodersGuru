@@ -28,6 +28,6 @@ jobs:
 
       - name: Run Playwright tests with Pytest (headed mode)
         env:
-          PLAYWRIGHT_HEADLESS: "0"
+          PLAYWRIGHT_HEADLESS: "1"
         run: |
           pytest --html=raport.html --maxfail=1 --disable-warnings -q
