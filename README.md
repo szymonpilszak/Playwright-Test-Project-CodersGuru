@@ -5,7 +5,6 @@
 
 ***Build Status***
 
-
 ![Playwright Tests](https://github.com/szymonpilszak/Playwright-Test-Project-CodersGuru/actions/workflows/tests.yml/badge.svg)
 
 
