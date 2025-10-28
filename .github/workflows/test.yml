@@ -30,4 +30,4 @@ jobs:
         env:
           PLAYWRIGHT_HEADLESS: "0"
         run: |
-          pytest --browser chromium --maxfail=1 --disable-warnings -q
+          pytest --html=raport.html --maxfail=1 --disable-warnings -q
