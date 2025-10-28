@@ -2,6 +2,12 @@
 
 <h1 align="center">Playwright TEST Project</h1>
 
+
+***Build Status***
+
+![Playwright Tests](https://github.com/szymonpilszak/Playwright-Test-Project-CodersGuru/actions/workflows/test.yml/badge.svg)
+
+
 ***TEST REPORTS AND LOGS***
 
 https://szymonpilszak.github.io/Playwright-Test-Project-CodersGuru/report.html
