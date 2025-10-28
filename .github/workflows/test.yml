@@ -26,6 +26,8 @@ jobs:
         run: |
           python -m playwright install --with-deps
 
-      - name: Run Playwright tests with Pytest
+      - name: Run Playwright tests with Pytest (headed mode)
+        env:
+          PLAYWRIGHT_HEADLESS: "0"
         run: |
-          pytest --headed --maxfail=1 --disable-warnings -q
+          pytest --browser chromium --maxfail=1 --disable-warnings -q
