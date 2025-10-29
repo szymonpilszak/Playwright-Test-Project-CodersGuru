@@ -10,7 +10,7 @@
 
 ***TEST REPORTS AND LOGS***
 
-https://szymonpilszak.github.io/Playwright-Test-Project-CodersGuru/report.html
+https://szymonpilszak.github.io/Playwright-Test-Project-CodersGuru/raport.html
 <br>
 <br>
 <br>
